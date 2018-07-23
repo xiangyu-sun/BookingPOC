@@ -59,7 +59,7 @@
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4z-R0-j0X">
                                                 <rect key="frame" x="0.0" y="75" width="125" height="5"/>
-                                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.77647058823529413" green="0.047058823529411764" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="5" id="J5X-4v-yGJ"/>
                                                 </constraints>
@@ -146,7 +146,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="pPl-x8-AnD">
                         <barButtonItem key="rightBarButtonItem" title="Options" id="TRu-B7-Oca">
-                            <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" red="0.77647058823529413" green="0.047058823529411764" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
