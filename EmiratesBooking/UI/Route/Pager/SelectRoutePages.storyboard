@@ -48,48 +48,83 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNH-9u-NMi">
-                                <rect key="frame" x="16" y="70" width="343" height="80"/>
+                                <rect key="frame" x="16" y="70" width="343" height="90"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="From" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FTo-FW-OgS" customClass="JVFloatLabeledTextField">
-                                        <rect key="frame" x="16" y="4" width="311" height="72"/>
+                                        <rect key="frame" x="16" y="16" width="311" height="58"/>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="floatingLabelTextColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="floatingLabelActiveTextColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="FTo-FW-OgS" secondAttribute="bottom" constant="4" id="WcM-wM-QIe"/>
+                                    <constraint firstAttribute="bottom" secondItem="FTo-FW-OgS" secondAttribute="bottom" constant="16" id="WcM-wM-QIe"/>
                                     <constraint firstAttribute="trailing" secondItem="FTo-FW-OgS" secondAttribute="trailing" constant="16" id="Xc5-Gp-DKn"/>
                                     <constraint firstItem="FTo-FW-OgS" firstAttribute="leading" secondItem="XNH-9u-NMi" secondAttribute="leading" constant="16" id="ZSf-gf-2rF"/>
-                                    <constraint firstAttribute="height" constant="80" id="dLf-yT-jW2"/>
-                                    <constraint firstItem="FTo-FW-OgS" firstAttribute="top" secondItem="XNH-9u-NMi" secondAttribute="top" constant="4" id="lfY-zN-9Wn"/>
+                                    <constraint firstAttribute="height" constant="90" id="dLf-yT-jW2"/>
+                                    <constraint firstItem="FTo-FW-OgS" firstAttribute="top" secondItem="XNH-9u-NMi" secondAttribute="top" constant="16" id="lfY-zN-9Wn"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEI-QO-rRs">
-                                <rect key="frame" x="16" y="175" width="343" height="80"/>
+                                <rect key="frame" x="16" y="185" width="343" height="90"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="To" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6vV-8U-cOV">
-                                        <rect key="frame" x="16" y="0.0" width="311" height="80"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="To" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6vV-8U-cOV" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="16" y="16" width="311" height="58"/>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="floatingLabelTextColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="floatingLabelActiveTextColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="6vV-8U-cOV" secondAttribute="bottom" id="Niq-gs-aU4"/>
+                                    <constraint firstAttribute="bottom" secondItem="6vV-8U-cOV" secondAttribute="bottom" constant="16" id="Niq-gs-aU4"/>
                                     <constraint firstAttribute="trailing" secondItem="6vV-8U-cOV" secondAttribute="trailing" constant="16" id="O0d-G0-bBc"/>
-                                    <constraint firstItem="6vV-8U-cOV" firstAttribute="top" secondItem="zEI-QO-rRs" secondAttribute="top" id="UGD-b0-RJH"/>
-                                    <constraint firstAttribute="height" constant="80" id="kfn-tf-Fhi"/>
+                                    <constraint firstItem="6vV-8U-cOV" firstAttribute="top" secondItem="zEI-QO-rRs" secondAttribute="top" constant="16" id="UGD-b0-RJH"/>
+                                    <constraint firstAttribute="height" constant="90" id="kfn-tf-Fhi"/>
                                     <constraint firstItem="6vV-8U-cOV" firstAttribute="leading" secondItem="zEI-QO-rRs" secondAttribute="leading" constant="16" id="vB8-OS-XsN"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kae-Gs-Th1">
-                                <rect key="frame" x="16" y="280" width="343" height="80"/>
+                                <rect key="frame" x="16" y="300" width="343" height="90"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1 Adult in Economy" placeholder="For" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f7j-UZ-aof" customClass="JVFloatLabeledTextField">
+                                        <rect key="frame" x="16" y="16" width="311" height="58"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="floatingLabelTextColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="floatingLabelActiveTextColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="eaf-hS-ERm"/>
+                                    <constraint firstItem="f7j-UZ-aof" firstAttribute="top" secondItem="Kae-Gs-Th1" secondAttribute="top" constant="16" id="DNR-JF-Dbd"/>
+                                    <constraint firstAttribute="trailing" secondItem="f7j-UZ-aof" secondAttribute="trailing" constant="16" id="GT5-aA-3l2"/>
+                                    <constraint firstAttribute="height" constant="90" id="eaf-hS-ERm"/>
+                                    <constraint firstItem="f7j-UZ-aof" firstAttribute="leading" secondItem="Kae-Gs-Th1" secondAttribute="leading" constant="16" id="pQw-Ha-It4"/>
+                                    <constraint firstAttribute="bottom" secondItem="f7j-UZ-aof" secondAttribute="bottom" constant="16" id="vTm-xu-Q8p"/>
                                 </constraints>
                             </view>
                         </subviews>

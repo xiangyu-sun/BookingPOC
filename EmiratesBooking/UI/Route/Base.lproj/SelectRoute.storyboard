@@ -10,28 +10,28 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Search flights-->
+        <!--Select Route View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Search flights" id="BYZ-38-t0r" customClass="SelectRouteViewController" customModule="EmiratesBooking" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SelectRouteViewController" customModule="EmiratesBooking" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ti3-7r-CbJ">
-                                <rect key="frame" x="0.0" y="64" width="375" height="80"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="60"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zw2-mU-kHK">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Single Flight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpQ-x9-wOv">
-                                                <rect key="frame" x="0.0" y="0.0" width="125" height="75"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="55"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w1f-6w-dwD">
-                                                <rect key="frame" x="0.0" y="75" width="125" height="5"/>
+                                                <rect key="frame" x="0.0" y="55" width="125" height="5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="5" id="w4X-hS-ROn"/>
                                                 </constraints>
@@ -49,19 +49,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3iI-vv-xVw">
-                                        <rect key="frame" x="125" y="0.0" width="125" height="80"/>
+                                        <rect key="frame" x="125" y="0.0" width="125" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Return Flight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mb1-O9-d4u">
-                                                <rect key="frame" x="0.0" y="0.0" width="125" height="75"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="57"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4z-R0-j0X">
-                                                <rect key="frame" x="0.0" y="75" width="125" height="5"/>
+                                                <rect key="frame" x="0.0" y="57" width="125" height="3"/>
                                                 <color key="backgroundColor" red="0.77647058823529413" green="0.047058823529411764" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="5" id="J5X-4v-yGJ"/>
+                                                    <constraint firstAttribute="height" constant="3" id="J5X-4v-yGJ"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -77,16 +77,16 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="31s-Zw-zJv">
-                                        <rect key="frame" x="250" y="0.0" width="125" height="80"/>
+                                        <rect key="frame" x="250" y="0.0" width="125" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Multi Flight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ToS-xP-jUF">
-                                                <rect key="frame" x="0.0" y="0.0" width="125" height="75"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="55"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VVY-t7-cVR">
-                                                <rect key="frame" x="0.0" y="75" width="125" height="5"/>
+                                                <rect key="frame" x="0.0" y="55" width="125" height="5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="5" id="woe-2x-BeO"/>
@@ -110,20 +110,20 @@
                                     <constraint firstItem="31s-Zw-zJv" firstAttribute="top" secondItem="Ti3-7r-CbJ" secondAttribute="top" id="7q4-0Y-sJW"/>
                                     <constraint firstItem="zw2-mU-kHK" firstAttribute="top" secondItem="Ti3-7r-CbJ" secondAttribute="top" id="IzG-3n-OXW"/>
                                     <constraint firstItem="3iI-vv-xVw" firstAttribute="top" secondItem="Ti3-7r-CbJ" secondAttribute="top" id="JQE-zB-Fb1"/>
-                                    <constraint firstAttribute="height" constant="80" id="VzY-DK-u9D"/>
+                                    <constraint firstAttribute="height" constant="60" id="VzY-DK-u9D"/>
                                     <constraint firstAttribute="bottom" secondItem="zw2-mU-kHK" secondAttribute="bottom" id="ffi-00-2vm"/>
                                     <constraint firstAttribute="bottom" secondItem="3iI-vv-xVw" secondAttribute="bottom" id="g0K-la-tD9"/>
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEy-X0-NOJ">
-                                <rect key="frame" x="0.0" y="144" width="375" height="1"/>
+                                <rect key="frame" x="0.0" y="124" width="375" height="1"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="Zdw-up-brM"/>
                                 </constraints>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lxl-s5-obc">
-                                <rect key="frame" x="0.0" y="145" width="375" height="522"/>
+                                <rect key="frame" x="0.0" y="125" width="375" height="542"/>
                                 <connections>
                                     <segue destination="pfQ-qV-zJp" kind="embed" id="MSw-tF-rCs"/>
                                 </connections>

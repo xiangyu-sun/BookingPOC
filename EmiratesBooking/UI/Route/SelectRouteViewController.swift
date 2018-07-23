@@ -12,7 +12,10 @@ class SelectRouteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Text Example"
+        title = "Search flights"
+        navigationController?.navigationBar.titleTextAttributes = [
+            NSAttributedStringKey.font: UIFont(name: "HelveticaNeue", size: 20)!
+        ]
     }
 
 }
