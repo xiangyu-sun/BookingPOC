@@ -8,20 +8,20 @@
 
 import UIKit
 
+fileprivate func instantiatePage(_ name: String) -> UIViewController {
+    return UIStoryboard(name: "SelectRoutePages", bundle: nil).instantiateViewController(withIdentifier: name)
+}
+
 class RouteTypeContainerViewController : UIPageViewController {
     lazy var pages: [UIViewController] = [
-        self.newVC("pageReturnFlight"),
-        self.newVC("pageSingleFlight"),
-        self.newVC("pageMultiFlight")
+        instantiatePage("pageReturnFlight"),
+        instantiatePage("pageSingleFlight"),
+        instantiatePage("pageMultiFlight")
     ]
     
     override func viewDidLoad() {
         self.dataSource = self
         setViewControllers([pages[1]], direction: .forward, animated: true, completion: nil)
-    }
-    
-    func newVC(_ name: String) -> UIViewController {
-        return UIStoryboard(name: "SelectRoutePages", bundle: nil).instantiateViewController(withIdentifier: name)
     }
 }
 
@@ -53,6 +53,4 @@ extension RouteTypeContainerViewController : UIPageViewControllerDataSource {
         }
         return pages[nextIndex]
     }
-    
-    
 }

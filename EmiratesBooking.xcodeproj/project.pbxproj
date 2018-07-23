@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67B154186989FCA57B3DA2F7 /* Pods_EmiratesBooking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2A825B5B87DB3AA3B777C3 /* Pods_EmiratesBooking.framework */; };
 		C42FB226210466E900AFE032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42FB225210466E900AFE032 /* AppDelegate.swift */; };
 		C42FB228210466E900AFE032 /* SelectRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42FB227210466E900AFE032 /* SelectRouteViewController.swift */; };
 		C42FB22B210466E900AFE032 /* SelectRoute.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42FB229210466E900AFE032 /* SelectRoute.storyboard */; };
@@ -19,9 +20,21 @@
 		C42FB2612105989500AFE032 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FB25B2105989500AFE032 /* NSString+TextDirectionality.m */; };
 		C42FB2622105989500AFE032 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FB25C2105989500AFE032 /* JVFloatLabeledTextField.m */; };
 		C42FB2632105989500AFE032 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FB2602105989500AFE032 /* JVFloatLabeledTextView.m */; };
+		C482D031210617AE004BDC6F /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482D030210617AE004BDC6F /* Airport.swift */; };
+		C482D033210617ED004BDC6F /* AirportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482D032210617ED004BDC6F /* AirportsViewModel.swift */; };
+		C482D035210625F2004BDC6F /* AirportRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482D034210625F2004BDC6F /* AirportRepository.swift */; };
+		C482D0372106260A004BDC6F /* AirportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482D0362106260A004BDC6F /* AirportService.swift */; };
+		C482D03921062619004BDC6F /* AirportPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482D03821062619004BDC6F /* AirportPersistence.swift */; };
+		C482D03B210627DD004BDC6F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C482D03A210627DD004BDC6F /* Podfile */; };
+		C482D03E21064D99004BDC6F /* CredentialsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482D03D21064D99004BDC6F /* CredentialsProvider.swift */; };
+		C482D04021064DB0004BDC6F /* UrlRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482D03F21064DB0004BDC6F /* UrlRepository.swift */; };
+		C482D044210659AE004BDC6F /* LanguageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482D043210659AE004BDC6F /* LanguageProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FAB5974DD98EF17987B95D8 /* Pods-EmiratesBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmiratesBooking.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmiratesBooking/Pods-EmiratesBooking.release.xcconfig"; sourceTree = "<group>"; };
+		5A30E2552A2A63343917C8EA /* Pods-EmiratesBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmiratesBooking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmiratesBooking/Pods-EmiratesBooking.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2A825B5B87DB3AA3B777C3 /* Pods_EmiratesBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmiratesBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42FB222210466E900AFE032 /* EmiratesBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmiratesBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42FB225210466E900AFE032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C42FB227210466E900AFE032 /* SelectRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRouteViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +52,15 @@
 		C42FB25E2105989500AFE032 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
 		C42FB25F2105989500AFE032 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
 		C42FB2602105989500AFE032 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		C482D030210617AE004BDC6F /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		C482D032210617ED004BDC6F /* AirportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportsViewModel.swift; sourceTree = "<group>"; };
+		C482D034210625F2004BDC6F /* AirportRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportRepository.swift; sourceTree = "<group>"; };
+		C482D0362106260A004BDC6F /* AirportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportService.swift; sourceTree = "<group>"; };
+		C482D03821062619004BDC6F /* AirportPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportPersistence.swift; sourceTree = "<group>"; };
+		C482D03A210627DD004BDC6F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C482D03D21064D99004BDC6F /* CredentialsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsProvider.swift; sourceTree = "<group>"; };
+		C482D03F21064DB0004BDC6F /* UrlRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlRepository.swift; sourceTree = "<group>"; };
+		C482D043210659AE004BDC6F /* LanguageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,17 +68,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B154186989FCA57B3DA2F7 /* Pods_EmiratesBooking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3FAC3D97A59AA8056A71C32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D2A825B5B87DB3AA3B777C3 /* Pods_EmiratesBooking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C42FB219210466E900AFE032 = {
 			isa = PBXGroup;
 			children = (
+				C482D03A210627DD004BDC6F /* Podfile */,
 				C42FB224210466E900AFE032 /* EmiratesBooking */,
 				C42FB223210466E900AFE032 /* Products */,
+				ED5DE0083FE1C42381012FCC /* Pods */,
+				B3FAC3D97A59AA8056A71C32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +105,9 @@
 		C42FB224210466E900AFE032 /* EmiratesBooking */ = {
 			isa = PBXGroup;
 			children = (
-				C42FB25621050C5D00AFE032 /* Utils */,
-				C42FB2372104787100AFE032 /* Features */,
 				C42FB2382104788400AFE032 /* UI */,
+				C42FB2372104787100AFE032 /* Features */,
+				C42FB25621050C5D00AFE032 /* Utils */,
 				C42FB225210466E900AFE032 /* AppDelegate.swift */,
 				C42FB22C210466EB00AFE032 /* Assets.xcassets */,
 				C42FB22E210466EB00AFE032 /* LaunchScreen.storyboard */,
@@ -85,6 +119,8 @@
 		C42FB2372104787100AFE032 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				C482D0422106599B004BDC6F /* Language */,
+				C482D02F21061796004BDC6F /* Airports */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -128,8 +164,9 @@
 		C42FB25621050C5D00AFE032 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				C42FB25A2105989500AFE032 /* JVFloatLabeledTextField */,
+				C482D03C21064D8A004BDC6F /* Networking */,
 				C42FB25721050C6500AFE032 /* Extensions */,
+				C482D04121064FCA004BDC6F /* Widgets */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -155,6 +192,52 @@
 			path = JVFloatLabeledTextField;
 			sourceTree = "<group>";
 		};
+		C482D02F21061796004BDC6F /* Airports */ = {
+			isa = PBXGroup;
+			children = (
+				C482D030210617AE004BDC6F /* Airport.swift */,
+				C482D032210617ED004BDC6F /* AirportsViewModel.swift */,
+				C482D034210625F2004BDC6F /* AirportRepository.swift */,
+				C482D0362106260A004BDC6F /* AirportService.swift */,
+				C482D03821062619004BDC6F /* AirportPersistence.swift */,
+			);
+			path = Airports;
+			sourceTree = "<group>";
+		};
+		C482D03C21064D8A004BDC6F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C482D03D21064D99004BDC6F /* CredentialsProvider.swift */,
+				C482D03F21064DB0004BDC6F /* UrlRepository.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C482D04121064FCA004BDC6F /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				C42FB25A2105989500AFE032 /* JVFloatLabeledTextField */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		C482D0422106599B004BDC6F /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				C482D043210659AE004BDC6F /* LanguageProvider.swift */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		ED5DE0083FE1C42381012FCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A30E2552A2A63343917C8EA /* Pods-EmiratesBooking.debug.xcconfig */,
+				2FAB5974DD98EF17987B95D8 /* Pods-EmiratesBooking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C42FB234210466EB00AFE032 /* Build configuration list for PBXNativeTarget "EmiratesBooking" */;
 			buildPhases = (
+				8DE46F2DE7F7E3B9991F617E /* [CP] Check Pods Manifest.lock */,
 				C42FB21E210466E900AFE032 /* Sources */,
 				C42FB21F210466E900AFE032 /* Frameworks */,
 				C42FB220210466E900AFE032 /* Resources */,
+				F45D0FA51E856444DE942180 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C482D03B210627DD004BDC6F /* Podfile in Resources */,
 				C42FB230210466EB00AFE032 /* LaunchScreen.storyboard in Resources */,
 				C42FB2522104F90900AFE032 /* SelectRoutePages.storyboard in Resources */,
 				C42FB22D210466EB00AFE032 /* Assets.xcassets in Resources */,
@@ -222,18 +308,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DE46F2DE7F7E3B9991F617E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmiratesBooking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F45D0FA51E856444DE942180 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EmiratesBooking/Pods-EmiratesBooking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmiratesBooking/Pods-EmiratesBooking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C42FB21E210466E900AFE032 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C482D044210659AE004BDC6F /* LanguageProvider.swift in Sources */,
+				C482D031210617AE004BDC6F /* Airport.swift in Sources */,
+				C482D04021064DB0004BDC6F /* UrlRepository.swift in Sources */,
+				C482D03921062619004BDC6F /* AirportPersistence.swift in Sources */,
 				C42FB228210466E900AFE032 /* SelectRouteViewController.swift in Sources */,
+				C482D033210617ED004BDC6F /* AirportsViewModel.swift in Sources */,
 				C42FB25521050A7A00AFE032 /* ReturnFlightPageViewController.swift in Sources */,
+				C482D03E21064D99004BDC6F /* CredentialsProvider.swift in Sources */,
 				C42FB2632105989500AFE032 /* JVFloatLabeledTextView.m in Sources */,
+				C482D0372106260A004BDC6F /* AirportService.swift in Sources */,
 				C42FB2612105989500AFE032 /* NSString+TextDirectionality.m in Sources */,
 				C42FB25921050C7500AFE032 /* UIViewExt.swift in Sources */,
 				C42FB2622105989500AFE032 /* JVFloatLabeledTextField.m in Sources */,
 				C42FB2502104F62500AFE032 /* RouteTypeContainerViewController.swift in Sources */,
+				C482D035210625F2004BDC6F /* AirportRepository.swift in Sources */,
 				C42FB226210466E900AFE032 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +509,7 @@
 		};
 		C42FB235210466EB00AFE032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A30E2552A2A63343917C8EA /* Pods-EmiratesBooking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +528,7 @@
 		};
 		C42FB236210466EB00AFE032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FAB5974DD98EF17987B95D8 /* Pods-EmiratesBooking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

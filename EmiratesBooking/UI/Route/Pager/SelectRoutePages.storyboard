@@ -50,7 +50,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNH-9u-NMi">
                                 <rect key="frame" x="16" y="70" width="343" height="90"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="From" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FTo-FW-OgS" customClass="JVFloatLabeledTextField">
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="From" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FTo-FW-OgS" customClass="JVFloatLabeledTextField">
                                         <rect key="frame" x="16" y="16" width="311" height="58"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
@@ -77,7 +77,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEI-QO-rRs">
                                 <rect key="frame" x="16" y="185" width="343" height="90"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="To" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6vV-8U-cOV" customClass="JVFloatLabeledTextField">
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="To" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6vV-8U-cOV" customClass="JVFloatLabeledTextField">
                                         <rect key="frame" x="16" y="16" width="311" height="58"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
@@ -104,7 +104,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kae-Gs-Th1">
                                 <rect key="frame" x="16" y="300" width="343" height="90"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1 Adult in Economy" placeholder="For" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f7j-UZ-aof" customClass="JVFloatLabeledTextField">
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1 Adult in Economy" placeholder="For" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f7j-UZ-aof" customClass="JVFloatLabeledTextField">
                                         <rect key="frame" x="16" y="16" width="311" height="58"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -145,6 +145,7 @@
                     <connections>
                         <outlet property="forFieldLayout" destination="Kae-Gs-Th1" id="a9o-1K-St4"/>
                         <outlet property="fromFieldLayout" destination="XNH-9u-NMi" id="hJP-bC-JjF"/>
+                        <outlet property="fromTextField" destination="FTo-FW-OgS" id="zmu-1M-0dG"/>
                         <outlet property="toFieldLayout" destination="zEI-QO-rRs" id="B6k-dI-Eja"/>
                     </connections>
                 </viewController>
